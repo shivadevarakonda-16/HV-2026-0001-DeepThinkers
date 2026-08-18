@@ -4,16 +4,11 @@ const QRCode = require('qrcode');
 const { uploadCertificateFile } = require('../config/cloudinary');
 
 class CertificateService {
-  /**
-   * Compute standard SHA-256 hash of a file Buffer
-   */
+  
   static computeFileHash(buffer) {
     return crypto.createHash('sha256').update(buffer).digest('hex');
   }
 
-  /**
-   * Compute canonical SHA-256 metadata hash
-   */
   static computeMetadataHash(data) {
     const canonicalString = [
       data.certificateId,
