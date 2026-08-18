@@ -1,0 +1,23 @@
+{
+  "name": "credora",
+  "version": "2.0.0",
+  "description": "Credora v2 - Blockchain-Based Academic Certificate & Digital Credential Verification System (Team DeepThinkers - HV2026-0001)",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm run test --prefix backend",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "concurrently": "^8.2.2",
+    "ethers": "^6.17.0",
+    "hardhat": "^2.22.19"
+  },
+  "author": "Team DeepThinkers (HV2026-0001)",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
