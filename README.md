@@ -133,9 +133,11 @@ This provides a tamper-resistant and transparent verification mechanism.
                                     │    Test Network    │
                                     └────────────────────┘
 
+```
 
-#How to Run
+# How to Run
 Start Backend and Frontend
+
 
 From the project root:
 
@@ -145,6 +147,7 @@ This starts both the backend and frontend applications.
 
 Run Backend Separately
 npm run dev --prefix backend
+
 Run Frontend Separately
 npm run dev --prefix frontend
 
@@ -162,7 +165,7 @@ Demo Video
 [Add demo video URL]
 
 
-Deployment
+# Deployment
 
 The application consists of three major layers:
 
@@ -187,11 +190,100 @@ RPC
 Alchemy is used to connect the backend/blockchain deployment environment to Polygon Amoy.
 
 
-Screenshots
+# Screenshots
 
 Home Page
-![Alt text](/home/shiva/Pictures/Screenshots/Sc)
+![Alt text](/home/shiva/Pictures/Screenshots/)
 
 ![Alt text](/home/shiva/Downloads/CERT-2026-0U3-9554.pdf)
 
 
+Project Stucture: 
+```text
+credora/
+│
+├── backend/
+│   ├── src/
+│   │   ├── blockchain/
+│   │   ├── config/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── services/
+│   ├── tests/
+│   ├── package.json
+│   └── .env.example
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   └── services/
+│   └── package.json
+│
+├── contracts/
+│   └── CertificateRegistry.sol
+│
+├── scripts/
+│   └── deploy.js
+│
+├── docs/
+│
+├── hardhat.config.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+
+# Installation
+1. Clone the repository
+git clone https://github.com/shivadevarakonda-16/HV-2026-0001-DeepThinkers.git
+cd HV-2026-0001-DeepThinkers
+
+2. Install root dependencies
+npm install
+
+3. Install backend dependencies
+npm install --prefix backend
+
+4. Install frontend dependencies
+npm install --prefix frontend
+
+
+
+
+# Future Enhancements
+
+# majaor Area of focus is Passport Fraud Detection and VISA Fraud Detection.
+1.Support for additional blockchain networks
+2.Decentralized identity integration
+3.IPFS-based decentralized certificate storage
+4.Mobile application
+5.Advanced institutional dashboards
+6.Automated certificate revocation management
+7.Multi-university credential interoperability
+8.Zero-knowledge proof based privacy-preserving verification
+9.Mainnet deployment after production testing
+
+
+# Git Workflow
+
+Create Repository
+       ↓
+Clone Repository
+       ↓
+Create Project Structure
+       ↓
+Develop
+       ↓
+Commit
+       ↓
+Push
+       ↓
+Test
+       ↓
+Final Code
+       ↓
+Submit GitHub URL
