@@ -7,7 +7,7 @@
 1. ch. kumar chandu – Full Stack & Blockchain Developer
 2. D. Shiva Kumar – integration & backend
 3. K. Vamshi Krishna – Frontend & Commuicator
-4. K. Sai Kumar – Design Analyst
+4. K. Sai Kumar – Graphical Designer
 
 
 ---
@@ -169,19 +169,19 @@ Youtube URL : https://youtu.be/L620lBfMAMc?si=twvdvnBPBwBbnDdz
 
 The application consists of three major layers:
 
-Frontend
+Frontend  :Vercel
 
 The React frontend can be deployed using a frontend hosting platform.
 
-Backend
+Backend :Rendor
 
 The Node.js and Express backend can be deployed using a cloud hosting platform.
 
-Database
+Database : MongoDB Atlas and Cloudinary (for storing the pdf/images)
 
 MongoDB Atlas is used as the cloud database.
 
-Blockchain
+Blockchain  : Alchemy/Polygom Amoy.
 
 The smart contract is deployed on the Polygon Amoy testnet.
 
