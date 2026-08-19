@@ -158,7 +158,7 @@ npm run build
 Demo
 Live Demo
 
-[Add deployed application URL]
+URL : https://hv-2026-0001-deep-thinkers.vercel.app/
 
 Demo Video
 
